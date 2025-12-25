@@ -1,27 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Léo Proulx</title>
-    <style>
-      span {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-family: arial;
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <span>
-      <h1>Bonjour tout le monde!</h1>
-      <h2>Noël</h2>
+
+<head>
+  <title>Léo Proulx</title>
+  <style>
+    #headerMDR {
+      display: flex;
+    }
+
+    #bonjour {
+      color: yellow;
+      text-shadow: 2px 2px #000000;
+    }
+
+    #HNY {
+      height: 10em;
+      width: 40em;
+      align-self: flex-start;
+    }
+
+    #annee {
+      color: blue;
+      text-shadow: 2px 2px #000000;
+      font-size: 15em;
+      align-self: flex-end;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #souhaits {
+      color: deeppink;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    #gallerie {
+      width: 60em;
+      display: flex;
+      align-self: baseline;
+    }
+
+    .liens {
+      font-size: 3em;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    body {
+      background-image: url("https://cdn.discordapp.com/attachments/821548073108766783/1453857274480165059/istockphoto-1087097456-612x612.jpg?ex=694ef999&is=694da819&hm=77ba0413cf7dfa30c7d32b93de9bd538a0c2267a7351e0ff5185cabfdb3b7f79&"), url("paper.gif");
+      background-color: #cccccc;
+    }
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-family: arial;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <span>
+    <h1 id="bonjour">Bonjour tout le monde!</h1>
+    <div id="headerMDR">
+      <img id="HNY"
+        src="https://cdn.discordapp.com/attachments/821548073108766783/1453858881376620647/Untitled_design_3_2.jpg?ex=694efb18&is=694da998&hm=6fa0554acdcc60be52fecc890592664aecf7b9017e7a0d865672a2b26d473e21&">
+      <h1 id="annee">2026</h1>
+    </div>
+    <h2 id="souhaits">On vous souhaite de l'amour, des résolutions, du bonheur, des cadeaux, de la famille, de l'amour,
+      7 ans de malheur, 3 avances, 8 bonhommes</h2>
+    <div id="gallerie">
       <img
-        src="https://nicolet.ca/upload/nouvelles/276-age-ou-l-enfant-croit-au-pere-noel.jpg"
-        alt="C'est Noël"
-      />
-      <a href="https://opinel.club">Mine Funny</a>
-    </span>
-  </body>
+        src="https://cdn.discordapp.com/attachments/821548073108766783/1453859632354431027/a-vector-illustration-of-people-celebrating-new-year-J17YTE.jpg?ex=694efbcb&is=694daa4b&hm=870da993fb40ce11063c6b4cf298bdaa5f6b6e3d0409847a076efef4dcd85355&"
+        alt="C'est le jour de l'an" />
+      <img
+        src=https://cdn.discordapp.com/attachments/821548073108766783/1453859877452779644/61elvEp9GjL._AC_UF8941000_QL80_.jpg?ex=694efc06&is=694daa86&hm=7ddab5e30e7a51e81218b7b5815ece94bcc55265f356c27cf7228499495b8645&>
+    </div>
+    <a class="liens" href="https://opinel.club">Club Opinel</a>
+    <a class="liens" href="mc.opinel.club">Mine Funny / Saison Opinel</a>
+  </span>
+</body>
+
 </html>
